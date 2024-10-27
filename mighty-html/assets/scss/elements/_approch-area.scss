@@ -118,6 +118,14 @@ p{
             background-image: url(../images/banner/25.jpg);
         }
     }
+    &.four{
+        &::after{
+            content: '04' !important;
+        }
+        &::before{
+            background-image: url(../images/banner/26.jpg);
+        }
+    }
     &::before{
         background-image: url(../images/banner/03.png);
         background-color: transparent;

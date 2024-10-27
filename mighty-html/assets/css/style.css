@@ -29349,3 +29349,45 @@ body.servi-ce-details .rts-footer-two-area {
   display: none;
 }
 /*# sourceMappingURL=../maps/style.css.map */
+
+.blinking-stylish-text {
+  color: black;
+  font-weight: bold;
+  animation: stylish-blinking 3s infinite ease-in-out;
+  display: inline-block;
+}
+
+@keyframes stylish-blinking {
+  0% {
+    opacity: 1;
+    transform: scale(1) translateX(0);
+    color: black;
+  }
+  20% {
+    opacity: 0.7;
+    transform: scale(0.7) translateX(-5px);
+    color: #0077ff; /* 深藍色 */
+  }
+  40% {
+    opacity: 0.5;
+    transform: scale(0.8) translateX(5px);
+    color: #ff007f; /* 粉紅色 */
+  }
+  60% {
+    opacity: 0.7;
+    transform: scale(0.5) translateX(-5px);
+    color: #00ff77; /* 綠色 */
+  }
+  80% {
+    opacity: 0.9;
+    transform: scale(1.0) translateX(3px);
+    color: #ff7700; /* 橘色 */
+  }
+  100% {
+    opacity: 1;
+    transform: scale(0.9) translateX(0);
+    color: black;
+  }
+}
+
+
