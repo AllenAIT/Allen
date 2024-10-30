@@ -16912,7 +16912,7 @@ h2 div {
   top: 0;
   z-index: 1;
   background-size: cover;
-  background-position: center;
+  background-position: right;
   display: flex;
   justify-content: center;
   align-items: center;
